@@ -1,0 +1,36 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+dist/**/*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+.idea/*
+.idea/**
+*.iws
+*.iml
+*.ipr
+
+node_modules/
+bower_components/
+public/**/*.css
+npm-debug.log
+backup
+node_modules
+bower_components
+
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
