@@ -21,7 +21,7 @@ public class JacksonConfiguration {
                         .withCreatorVisibility(JsonAutoDetect.Visibility.NONE))
                 .activateDefaultTypingAsProperty(mapper.getPolymorphicTypeValidator(), ObjectMapper.DefaultTyping.NON_FINAL, "@class")
                 .registerModules(
-                        new InmutableCollectionsModule()
+                        new ImmutableCollectionsModule()
                 )
                 .setSerializationInclusion(JsonInclude.Include.NON_DEFAULT)
                 .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)

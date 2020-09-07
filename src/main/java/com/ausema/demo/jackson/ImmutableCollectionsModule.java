@@ -5,10 +5,10 @@ import com.fasterxml.jackson.databind.module.SimpleModule;
 
 import java.util.Collections;
 
-public class InmutableCollectionsModule extends SimpleModule {
+public class ImmutableCollectionsModule extends SimpleModule {
 
-    public InmutableCollectionsModule() {
-        super(InmutableCollectionsModule.class.getName(), new Version(1, 0, 0, null, null, null));
+    public ImmutableCollectionsModule() {
+        super(ImmutableCollectionsModule.class.getName(), new Version(1, 0, 0, null, null, null));
     }
 
     @Override
